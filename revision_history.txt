@@ -1,0 +1,143 @@
+MNESON REVISION HISTORY
+(C) Marius Amado Alves (amado.alves@netcabo.pt)
+License: SDC Conditions (www.softdevelcoop.org)
+
+20040601
+Package reorganization.
+Help wanted: see Annex 2.
+
+20040503
+A lot of improvements.
+Added Annex 1 to this log.
+
+20040419
+Improvements to the Mntext language and compiler:
+- introduced blocks
+- fixed the tokenizer to allow null white space
+between a special character and a non-delimited text item.
+Introduced a Lock protected object as a simple means of
+obtaining exclusive access.
+Abandoning the idea of a complex protected object.
+
+20040407
+Big introductions: calculus, conventions, Mntext.
+For this and the previous version I've put Mneson.P on hold.
+This is because I plan to generate the source code from a typed graph.
+Reasons for this include the automatic generation of a lot of items,
+including Mneson.P and Mneson_P.
+So this edition has changes inside Mneson only.
+Added a compiler for Mntext, a textual language for the description of attribute instances.
+Wrote the Mneson Conventions.
+This version is provisional.
+I think the compiler has a tiny bug.
+The Manual is under revision, and is a mess right now.
+
+20040405
+Added Mneson calculus operations (but not in Mneson.P yet).
+Added Show_Subgraph to package Mneson.
+Incremented the manual (but not in the webpage).
+
+20040401
+Improved valueless vertex operations.
+Mnedit now accepts valueless vertices.
+
+20040331
+Added common-targets operations.
+The interactive tool is now called Mnedit.
+Package Mn instantiates a Mneson graph.
+Added operation COMMON, that shows the common targets.
+In the body of Mneson shortened all Inverse name parts to Inv.
+
+20040325
+Created Mneson/P as protected object P nested in package Mneson.
+Other changes in package Mneson:
+renamed each generic operation to Generic_...;
+added non generic operations with the previous names of the generic;
+added types Process_Vertex and Process_Link.
+Also created an utility separate package (spec only) Mneson_P that simply renames all types in Mneson and operations in Mneson.P
+Changed Test.Interactive so that the CLOSED prompt does not show a name.
+Created Test_P.Interactive, equal to Test.Interactive except it is based on Mneson_P instead of Mneson.
+Reviewed package Order.
+Cosmetic changes to all units.
+
+20040324
+Mneson Manual created.
+
+20040323a
+First release.
+
+
+***************************
+*****                 *****
+*****     ANNEXES     *****
+*****                 *****
+***************************
+
+
+**********************************
+Annex 1. XML_Automaton old headers
+**********************************
+
+----  ATTENTION: THE USE OF THIS SOFTWARE IS SUBJECT TO CONDITIONS!     ----
+----  This is part of Adªlib, by Mário Amado Alves (maa@di.fct.unl.pt), ----
+----  available at http://lexis.di.fct.unl.pt/ADaLIB/.                  ----
+----  Adªlib is gratis, but you must know the conditions of its use.    ----
+
+-- xml_automaton.ads
+-- by Mário Amado Alves
+-- June 2000: created and tested
+-- Category: XML
+-- 2000-06-12: Attribute_Value_Delimiter array
+--   (instead of single variable Delimiter)
+-- 2000-06-14: Expecting_Element_Name_Or_Slash renamed to
+--   Expecting_Element_Name_Or_Special_Character;
+--   new kinds Markup_Declaration, Processing_Instruction;
+--   package now 100% bug free
+
+----  ATTENTION: THE USE OF THIS SOFTWARE IS SUBJECT TO CONDITIONS!     ----
+----  This is part of Adªlib, by Mário Amado Alves (maa@di.fct.unl.pt), ----
+----  available at http://lexis.di.fct.unl.pt/ADaLIB/.                  ----
+----  Adªlib is gratis, but you must know the conditions of its use.    ----
+
+-- xml_automaton.adb
+-- by Mário Amado Alves
+-- June 2000: created and tested
+-- Category: XML
+-- 2000-06-12: Attribute_Value_Delimiter array
+--   (instead of single variable Delimiter);
+--   Attribute arrays values no more reset (to save time)
+--   (only Attribute_Count reset)
+-- 2000-06-14: minimal treatment of Markup_Declaration
+--   and Processing_Instruction; now 100% bug free
+
+
+*******************************
+Annex 2. Problem with Get_Value
+*******************************
+
+Mneson.Structures.Get_Value shows a miserable absolute time performance
+of circa 50 ms. See Mneson.Test.Run2 and others.
+
+I try to analyse this problem with gprof, but it seems gprof is buggy:
+the call graph includes functions that are never called!
+So I suspect that gprof is confusing function names and leading me astray.
+
+However gprof consistently put's AI302 (old version) internal functions
+high up on the flat file.
+Tree functions get called tens of millions of times.
+So maybe this is a problem with AI302.
+A possible course of action is therefore to sycn Mneson with
+the new version of AI302 (now) or with Ada.Containers (in 2005).
+
+*** Thanks a lot to anyone willing to help here. ***
+
+I'm not experienced with gprof.
+
+Note that to research the gprof bug I have commented out some entities
+in Mneson.Base and Mneson.Templates and perhaps elsewhere.
+Some units might not compile because of this.
+If this happens just uncomment the entities back in.
+Sorry.
+
+2004-06-01
+--MAA

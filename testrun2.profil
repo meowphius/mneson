@@ -1,0 +1,1008 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 35.85      2.75     2.75  5005000     0.00     0.00  mneson__test__base__link_sets__copy_node
+ 19.82      4.27     1.52                             _mcount
+ 14.60      5.39     1.12     1000     1.12     3.87  mneson__test__base__link_sets__copy_tree
+  9.00      6.08     0.69     1004     0.69     0.69  mneson__test__base__link_sets__delete_tree
+  4.30      6.41     0.33                             mcount
+  1.56      6.53     0.12                             __gnat_free
+  1.56      6.65     0.12                             __gnat_malloc
+  1.43      6.76     0.11   921567     0.00     0.00  mneson__test__base__is_valueless
+  1.30      6.86     0.10   315300     0.00     0.00  mneson__test__base__vertex_order__Oge
+  1.17      6.95     0.09                             system__soft_links__task_unlock_nt
+  1.04      7.03     0.08   473350     0.00     0.00  mneson__test__base(short, long, int, char,...)
+  1.04      7.11     0.08   262591     0.00     0.00  mneson__test__base__vertex_order__Olt$2
+  0.91      7.18     0.07                             system__soft_links__task_lock_nt
+  0.65      7.23     0.05   601183     0.00     0.00  mneson__test__base__Olt
+  0.65      7.28     0.05                             system__soft_links__set_jmpbuf_address_nt
+  0.52      7.32     0.04                             system__soft_links__get_jmpbuf_address_nt
+  0.39      7.35     0.03   226498     0.00     0.00  mneson__test__base__link_sets__left
+  0.39      7.38     0.03   169837     0.00     0.00  mneson__test__base__link_sets__is_less_element_node
+  0.39      7.41     0.03   111000     0.00     0.00  mneson__test__base__link_sets__element
+  0.39      7.44     0.03                             system__soft_links__get_jmpbuf_address_soft
+  0.26      7.46     0.02   722586     0.00     0.00  mneson__test__base__is_string
+  0.26      7.48     0.02     1000     0.02     3.95  mneson__test__base__escape
+  0.26      7.50     0.02                             _msize
+  0.26      7.52     0.02                             system__soft_links__set_jmpbuf_address_soft
+  0.13      7.53     0.01   473350     0.00     0.00  mneson__test__base__length
+  0.13      7.54     0.01   241072     0.00     0.00  mneson__test__base__lt_for_string_vertices
+  0.13      7.55     0.01   227383     0.00     0.00  mneson__test__base__vertex_order__Ogt
+  0.13      7.56     0.01    28496     0.00     0.00  mneson__test__base__link_sets__tree_types__min
+  0.13      7.57     0.01    10010     0.00     0.00  mneson__test__base__link_sets__tree_types__rebalance_for_insert
+  0.13      7.58     0.01     2004     0.00     0.19  mneson__test__time_increase_test
+  0.13      7.59     0.01     1002     0.01     0.01  mneson__test__base__link_sets__tree_types__initialize
+  0.13      7.60     0.01      200     0.05     0.05  mneson__test__base__string_maps__hash_table_types__find
+  0.13      7.61     0.01                             __gnat_notify_handled_exception
+  0.13      7.62     0.01                             ada__exceptions__process_raise_exception
+  0.13      7.63     0.01                             ada__exceptions__save_occurrence
+  0.13      7.64     0.01                             ada__strings__fixed__head
+  0.13      7.65     0.01                             free
+  0.13      7.66     0.01                             system__soft_links__get_sec_stack_addr_nt
+  0.13      7.67     0.01                             system__string_ops_concat_3__str_concat_3
+  0.00      7.67     0.00   722586     0.00     0.00  mneson__test__base__is_integer_64
+  0.00      7.67     0.00   473350     0.00     0.00  mneson__test__base__value$2
+  0.00      7.67     0.00   391170     0.00     0.00  mneson__test__base__link_sets__right
+  0.00      7.67     0.00   358838     0.00     0.00  mneson__test__base__link_sets__parent
+  0.00      7.67     0.00    91754     0.00     0.00  mneson__test__base__link_sets__is_greater_element_node
+  0.00      7.67     0.00    66777     0.00     0.00  mneson__test__base__link_sets__color
+  0.00      7.67     0.00    65796     0.00     0.00  mneson__test__base__link_sets__tree_types__root
+  0.00      7.67     0.00    54000     0.00     0.00  mneson__test__base__link_sets(short, char __restrict, char)
+  0.00      7.67     0.00    54000     0.00     0.00  mneson__test__base__link_sets__tree_types(short, char __restrict, char)
+  0.00      7.67     0.00    52534     0.00     0.00  mneson__test__base__link_sets__set_color
+  0.00      7.67     0.00    38251     0.00     0.00  mneson__test__base__link_sets__set_parent
+  0.00      7.67     0.00    31550     0.00     0.00  mneson__test__base__link_sets__set_right
+  0.00      7.67     0.00    17663     0.00     0.00  mneson__test__base__link_sets__set_left
+  0.00      7.67     0.00    10010     0.00     0.04  mneson__test__base__link_sets__insert
+  0.00      7.67     0.00    10010     0.00     0.04  mneson__test__base__link_sets__swap
+  0.00      7.67     0.00     9010     0.00     0.00  mneson__test__base__to_vertex
+  0.00      7.67     0.00     9010     0.00     0.00  mneson__test__base__value
+  0.00      7.67     0.00     8578     0.00     0.00  mneson__test__base__link_sets__tree_types__last
+  0.00      7.67     0.00     8535     0.00     0.00  mneson__test__base__link_sets__tree_types__left_rotate
+  0.00      7.67     0.00     6000     0.00     0.02  mneson__test__base__link_sets__element_keys__lower_boundXnnn
+  0.00      7.67     0.00     6000     0.00     0.02  mneson__test__base__link_sets__lower_bound
+  0.00      7.67     0.00     5005     0.00     0.07  mneson__test__base__connect
+  0.00      7.67     0.00     5005     0.00     0.00  mneson__test__base__link_sets___init_proc
+  0.00      7.67     0.00     4007     0.00     0.00  mneson__test__base__link_sets__tree_types__set_last
+  0.00      7.67     0.00     2862     0.00     0.00  mneson__test__base__link_sets__tree_types__first
+  0.00      7.67     0.00     2197     0.00     0.00  mneson__test__base__link_sets__tree_types__right_rotate
+  0.00      7.67     0.00     1428     0.00     0.00  mneson__test__base__link_sets__tree_types(long double *,...)(double)
+  0.00      7.67     0.00     1045     0.00     0.00  mneson__test__base__string_maps__next
+  0.00      7.67     0.00     1045     0.00     0.00  mneson__test__inc
+  0.00      7.67     0.00     1037     0.00     0.00  mneson__test__assert
+  0.00      7.67     0.00     1036     0.00     0.00  mneson__test__raises
+  0.00      7.67     0.00     1008     0.00     0.00  mneson__test__base__link_sets__tree_types__set_root
+  0.00      7.67     0.00     1005     0.00     0.00  mneson__test__base__inc
+  0.00      7.67     0.00     1005     0.00     0.00  mneson__test__base__new_serial_number
+  0.00      7.67     0.00     1005     0.00     0.00  mneson__test__base__new_vertex
+  0.00      7.67     0.00     1005     0.00     0.00  mneson__test__base__valueless_vertex
+  0.00      7.67     0.00     1002     0.00     0.00  mneson__test__base__link_sets___init_proc$3
+  0.00      7.67     0.00     1002     0.00     0.69  mneson__test__base__link_sets__finalize$2
+  0.00      7.67     0.00     1002     0.00     0.00  mneson__test__base__link_sets__tree_types__set_first
+  0.00      7.67     0.00     1000     0.00     0.17  mneson__test__base__for_each_common_target
+  0.00      7.67     0.00     1000     0.00     0.00  mneson__test__base__for_each_target
+  0.00      7.67     0.00     1000     0.00     3.88  mneson__test__base__link_sets__adjust$2
+  0.00      7.67     0.00     1000     0.00     0.00  mneson__test__base__link_sets__back
+  0.00      7.67     0.00     1000     0.00     0.00  mneson__test__base__link_sets__tree_types__max
+  0.00      7.67     0.00     1000     0.00     0.00  mneson__test__base__vertex_order__Ogt$2
+  0.00      7.67     0.00      910     0.00     0.00  mneson__test__base__short_string_io__write$2Xnn
+  0.00      7.67     0.00      577     0.00     0.00  _ada_ai302__strings__hash
+  0.00      7.67     0.00      566     0.00     0.00  mneson__test__base__string_maps__is_equal_key_node
+  0.00      7.67     0.00      402     0.00     0.00  mneson__test__base__string_maps___init_proc$2
+  0.00      7.67     0.00      301     0.00     0.00  mneson__test__base__string_maps__hash_table_types__index$3
+  0.00      7.67     0.00      276     0.00     0.00  mneson__test__base__string_maps__hash_node
+  0.00      7.67     0.00      276     0.00     0.00  mneson__test__base__string_maps__hash_table_types__index
+  0.00      7.67     0.00      276     0.00     0.00  mneson__test__base__string_maps__set_next
+  0.00      7.67     0.00      201     0.00     0.05  mneson__test__base__string_maps__find
+  0.00      7.67     0.00      101     0.00     0.00  mneson__test__base__short_string_io__set_indexXnn
+  0.00      7.67     0.00      101     0.00     0.00  mneson__test__base__short_string_io__sizeXnn
+  0.00      7.67     0.00      101     0.00     0.00  mneson__test__base__string_maps__hash_table_types__resize
+  0.00      7.67     0.00      101     0.00     0.00  mneson__test__base__string_maps__insert
+  0.00      7.67     0.00      101     0.00     0.00  mneson__test__base__string_maps__replace_element
+  0.00      7.67     0.00      101     0.00     0.00  mneson__test__base__string_maps__resize
+  0.00      7.67     0.00      101     0.00     0.00  mneson__test__base__string_maps__write$3
+  0.00      7.67     0.00      100     0.00     0.00  mneson__test__base__string_maps__element$2
+  0.00      7.67     0.00       59     0.00     0.00  ai302__containers__prime_numbers__is_less
+  0.00      7.67     0.00       37     0.00     0.00  mneson__test__report
+  0.00      7.67     0.00       11     0.00     0.00  ai302__containers__prime_numbers__lower_bound
+  0.00      7.67     0.00       11     0.00     0.00  ai302__containers__prime_numbers__to_prime
+  0.00      7.67     0.00       11     0.00     0.00  mneson__test__base__string_maps__hash_table_types___init_proc
+  0.00      7.67     0.00       11     0.00     0.00  mneson__test__base__string_maps__hash_table_types__rehash
+  0.00      7.67     0.00        9     0.00     0.00  mneson__monitors__null_monitor
+  0.00      7.67     0.00        3     0.00     0.00  mneson__test__base__delete_system
+  0.00      7.67     0.00        2     0.00     0.00  mneson__test__base__filename
+  0.00      7.67     0.00        2     0.00     0.66  mneson__test__base__link_sets__Ogt$3
+  0.00      7.67     0.00        2     0.00     0.00  mneson__test__base__link_sets___init_proc$2
+  0.00      7.67     0.00        2     0.00     0.66  mneson__test__base__link_sets___write$2
+  0.00      7.67     0.00        2     0.00     0.70  mneson__test__base__link_sets__clear
+  0.00      7.67     0.00        2     0.00     0.00  mneson__test__base__link_sets__new_back
+  0.00      7.67     0.00        2     0.00     0.66  mneson__test__base__link_sets__write$2
+  0.00      7.67     0.00        2     0.00     0.00  mneson__test__base__open
+  0.00      7.67     0.00        1     0.00  4501.37  _ada_mneson__test__run2
+  0.00      7.67     0.00        1     0.00     0.00  adainit
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test___elabs
+  0.00      7.67     0.00        1     0.00     1.33  mneson__test__base__close
+  0.00      7.67     0.00        1     0.00     1.39  mneson__test__base__create
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__create_system
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__short_string_io__closeXnn
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__short_string_io__createXnn
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps___init_proc$3
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps___write$2
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps__clear
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps__finalize$2
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps__hash_table_types___init_proc$2
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps__hash_table_types__clear
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps__hash_table_types__finalize
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps__write$2
+  0.00      7.67     0.00        1     0.00     0.00  mneson__test__base__string_maps__write$4
+  0.00      7.67     0.00        1     0.00     1.33  mneson__test__perform
+  0.00      7.67     0.00        1     0.00     0.00  mneson__types___elabs
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.17% of 5.82 seconds
+
+index % time    self  children    called     name
+                0.00    4.50       1/1           main [2]
+[1]     77.3    0.00    4.50       1         _ada_mneson__test__run2 [1]
+                0.03    4.47       4/4           mneson__test__time_increase_test <cycle 1> [12]
+                0.00    0.00       1/1           mneson__test__base__create [59]
+                0.00    0.00       1/1           mneson__test__perform [64]
+                0.00    0.00      10/9010        mneson__test__base__to_vertex [45]
+                0.00    0.00       2/1005        mneson__test__base__new_vertex [92]
+                0.00    0.00       1/37          mneson__test__report [116]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     77.3    0.00    4.50                 main [2]
+                0.00    4.50       1/1           _ada_mneson__test__run2 [1]
+                0.00    0.00       1/1           adainit [127]
+-----------------------------------------------
+[3]     77.3    0.03    4.47       4+5000    <cycle 1 as a whole> [3]
+                0.01    0.37    2004+8003        mneson__test__time_increase_test <cycle 1> [12]
+                0.00    0.17    1000             mneson__test__base__for_each_common_target <cycle 1> [18]
+                0.00    0.00    1000             mneson__test__base__for_each_target <cycle 1> [96]
+-----------------------------------------------
+                                5000             mneson__test__base__escape <cycle 1> [4]
+                                1000             mneson__test__base__for_each_target <cycle 1> [96]
+[4]     67.9    0.02    3.93    1000+5000    mneson__test__base__escape <cycle 1> [4]
+                0.00    3.88    1000/1000        mneson__test__base__link_sets__adjust$2 [5]
+                0.00    0.05    2000/6000        mneson__test__base__link_sets__lower_bound [22]
+                0.00    0.00    1000/1000        mneson__test__base__vertex_order__Ogt$2 [57]
+                0.00    0.00    1000/111000      mneson__test__base__link_sets__element [35]
+                0.00    0.00    1000/1000        mneson__test__base__link_sets__back [97]
+                                1000             mneson__test__time_increase_test <cycle 1> [12]
+                                5000             mneson__test__base__escape <cycle 1> [4]
+-----------------------------------------------
+                0.00    3.88    1000/1000        mneson__test__base__escape <cycle 1> [4]
+[5]     66.7    0.00    3.88    1000         mneson__test__base__link_sets__adjust$2 [5]
+                1.12    2.75    1000/1000        mneson__test__base__link_sets__copy_tree [6]
+                0.01    0.00    1000/1002        mneson__test__base__link_sets__tree_types__initialize [46]
+                0.00    0.00    1000/28496       mneson__test__base__link_sets__tree_types__min [41]
+                0.00    0.00    1000/65796       mneson__test__base__link_sets__tree_types__root [76]
+                0.00    0.00    1000/1002        mneson__test__base__link_sets___init_proc$3 [94]
+                0.00    0.00    1000/1008        mneson__test__base__link_sets__tree_types__set_root [89]
+                0.00    0.00    1000/1002        mneson__test__base__link_sets__tree_types__set_first [95]
+                0.00    0.00    1000/1000        mneson__test__base__link_sets__tree_types__max [98]
+                0.00    0.00    1000/4007        mneson__test__base__link_sets__tree_types__set_last [84]
+-----------------------------------------------
+                             2512000             mneson__test__base__link_sets__copy_tree [6]
+                1.12    2.75    1000/1000        mneson__test__base__link_sets__adjust$2 [5]
+[6]     66.5    1.12    2.75    1000+2512000 mneson__test__base__link_sets__copy_tree [6]
+                2.75    0.00 5005000/5005000     mneson__test__base__link_sets__copy_node [7]
+                             2512000             mneson__test__base__link_sets__copy_tree [6]
+-----------------------------------------------
+                2.75    0.00 5005000/5005000     mneson__test__base__link_sets__copy_tree [6]
+[7]     47.3    2.75    0.00 5005000         mneson__test__base__link_sets__copy_node [7]
+-----------------------------------------------
+                             5015010             mneson__test__base__link_sets__delete_tree [8]
+                0.00    0.00       2/1004        mneson__test__base__link_sets__clear [58]
+                0.69    0.00    1002/1004        mneson__test__base__link_sets__finalize$2 [9]
+[8]     11.9    0.69    0.00    1004+5015010 mneson__test__base__link_sets__delete_tree [8]
+                             5015010             mneson__test__base__link_sets__delete_tree [8]
+-----------------------------------------------
+                0.00    0.69    1002/1002        system__finalization_implementation__finalize_list [10]
+[9]     11.8    0.00    0.69    1002         mneson__test__base__link_sets__finalize$2 [9]
+                0.69    0.00    1002/1004        mneson__test__base__link_sets__delete_tree [8]
+                0.00    0.00    1002/65796       mneson__test__base__link_sets__tree_types__root [76]
+-----------------------------------------------
+                                                 <spontaneous>
+[10]    11.8    0.00    0.69                 system__finalization_implementation__finalize_list [10]
+                0.00    0.69    1002/1002        mneson__test__base__link_sets__finalize$2 [9]
+                0.00    0.00       1/1           mneson__test__base__string_maps__finalize$2 [135]
+-----------------------------------------------
+                               52709             mneson__test__base__vertex_order__Olt$2 [11]
+                0.00    0.00    1000/262591      mneson__test__base__vertex_order__Ogt$2 [57]
+                0.03    0.13   91754/262591      mneson__test__base__link_sets__is_greater_element_node [20]
+                0.05    0.23  169837/262591      mneson__test__base__link_sets__is_less_element_node [16]
+[11]     7.6    0.08    0.36  262591+52709   mneson__test__base__vertex_order__Olt$2 [11]
+                0.03    0.12  315300/601183      mneson__test__base__Olt [17]
+                0.01    0.11  227383/227383      mneson__test__base__vertex_order__Ogt [25]
+                0.10    0.00  315300/315300      mneson__test__base__vertex_order__Oge [27]
+                               52709             mneson__test__base__vertex_order__Olt$2 [11]
+-----------------------------------------------
+                                8003             mneson__test__time_increase_test <cycle 1> [12]
+                                1000             mneson__test__base__escape <cycle 1> [4]
+                                1000             mneson__test__base__for_each_common_target <cycle 1> [18]
+                0.03    4.47       4/4           _ada_mneson__test__run2 [1]
+[12]     6.5    0.01    0.37    2004+8003    mneson__test__time_increase_test <cycle 1> [12]
+                0.00    0.36    5005/5005        mneson__test__base__connect [15]
+                0.00    0.01    9000/9010        mneson__test__base__to_vertex [45]
+                0.00    0.00    1036/1037        mneson__test__assert [87]
+                0.00    0.00    1002/1005        mneson__test__base__new_vertex [92]
+                0.00    0.00      36/37          mneson__test__report [116]
+                                1000             mneson__test__base__for_each_target <cycle 1> [96]
+                                1000             mneson__test__base__for_each_common_target <cycle 1> [18]
+                                8003             mneson__test__time_increase_test <cycle 1> [12]
+-----------------------------------------------
+                0.00    0.36   10010/10010       mneson__test__base__connect [15]
+[13]     6.1    0.00    0.36   10010         mneson__test__base__link_sets__insert [13]
+                0.00    0.36   10010/10010       mneson__test__base__link_sets__swap [14]
+-----------------------------------------------
+                               20020             mneson__test__base__link_sets__swap [14]
+                0.00    0.36   10010/10010       mneson__test__base__link_sets__insert [13]
+[14]     6.1    0.00    0.36   10010+20020   mneson__test__base__link_sets__swap [14]
+                0.03    0.29  169837/169837      mneson__test__base__link_sets__is_less_element_node [16]
+                0.01    0.01   10010/10010       mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+                0.00    0.02   10006/91754       mneson__test__base__link_sets__is_greater_element_node [20]
+                0.00    0.00   30121/226498      mneson__test__base__link_sets__left [34]
+                0.00    0.00    1428/1428        mneson__test__base__link_sets__tree_types(long double *,...)(double) [65]
+                0.00    0.00    2862/2862        mneson__test__base__link_sets__tree_types__first [67]
+                0.00    0.00  129708/391170      mneson__test__base__link_sets__right [73]
+                0.00    0.00   10010/38251       mneson__test__base__link_sets__set_parent [78]
+                0.00    0.00   10010/65796       mneson__test__base__link_sets__tree_types__root [76]
+                0.00    0.00    8578/31550       mneson__test__base__link_sets__set_right [79]
+                0.00    0.00    8578/8578        mneson__test__base__link_sets__tree_types__last [82]
+                0.00    0.00    3007/4007        mneson__test__base__link_sets__tree_types__set_last [84]
+                0.00    0.00    1432/17663       mneson__test__base__link_sets__set_left [80]
+                0.00    0.00       2/1008        mneson__test__base__link_sets__tree_types__set_root [89]
+                0.00    0.00       2/1002        mneson__test__base__link_sets__tree_types__set_first [95]
+                               20020             mneson__test__base__link_sets__swap [14]
+-----------------------------------------------
+                0.00    0.36    5005/5005        mneson__test__time_increase_test <cycle 1> [12]
+[15]     6.1    0.00    0.36    5005         mneson__test__base__connect [15]
+                0.00    0.36   10010/10010       mneson__test__base__link_sets__insert [13]
+                0.00    0.00    5005/5005        mneson__test__base__link_sets___init_proc [83]
+-----------------------------------------------
+                0.03    0.29  169837/169837      mneson__test__base__link_sets__swap [14]
+[16]     5.4    0.03    0.29  169837         mneson__test__base__link_sets__is_less_element_node [16]
+                0.05    0.23  169837/262591      mneson__test__base__vertex_order__Olt$2 [11]
+-----------------------------------------------
+                0.00    0.02   58500/601183      mneson__test__base__for_each_common_target <cycle 1> [18]
+                0.02    0.09  227383/601183      mneson__test__base__vertex_order__Ogt [25]
+                0.03    0.12  315300/601183      mneson__test__base__vertex_order__Olt$2 [11]
+[17]     4.8    0.05    0.23  601183         mneson__test__base__Olt [17]
+                0.01    0.15  241072/241072      mneson__test__base__lt_for_string_vertices [19]
+                0.05    0.00  448217/921567      mneson__test__base__is_valueless [26]
+                0.02    0.00  722586/722586      mneson__test__base__is_string [37]
+                0.00    0.00  722586/722586      mneson__test__base__is_integer_64 [72]
+-----------------------------------------------
+                                1000             mneson__test__time_increase_test <cycle 1> [12]
+[18]     2.9    0.00    0.17    1000         mneson__test__base__for_each_common_target <cycle 1> [18]
+                0.00    0.10    4000/6000        mneson__test__base__link_sets__lower_bound [22]
+                0.03    0.00  110000/111000      mneson__test__base__link_sets__element [35]
+                0.00    0.02   58500/601183      mneson__test__base__Olt [17]
+                0.00    0.02   54000/54000       mneson__test__base__link_sets(short, char __restrict, char) [42]
+                                1000             mneson__test__time_increase_test <cycle 1> [12]
+-----------------------------------------------
+                0.01    0.15  241072/241072      mneson__test__base__Olt [17]
+[19]     2.7    0.01    0.15  241072         mneson__test__base__lt_for_string_vertices [19]
+                0.00    0.09  473350/473350      mneson__test__base__value$2 [28]
+                0.06    0.00  473350/921567      mneson__test__base__is_valueless [26]
+-----------------------------------------------
+                0.00    0.02   10006/91754       mneson__test__base__link_sets__swap [14]
+                0.00    0.14   81748/91754       mneson__test__base__link_sets__element_keys__lower_boundXnnn [21]
+[20]     2.7    0.00    0.15   91754         mneson__test__base__link_sets__is_greater_element_node [20]
+                0.03    0.13   91754/262591      mneson__test__base__vertex_order__Olt$2 [11]
+-----------------------------------------------
+                0.00    0.14    6000/6000        mneson__test__base__link_sets__lower_bound [22]
+[21]     2.4    0.00    0.14    6000         mneson__test__base__link_sets__element_keys__lower_boundXnnn [21]
+                0.00    0.14   81748/91754       mneson__test__base__link_sets__is_greater_element_node [20]
+                0.00    0.00   35388/226498      mneson__test__base__link_sets__left [34]
+                0.00    0.00   46360/391170      mneson__test__base__link_sets__right [73]
+                0.00    0.00    6000/65796       mneson__test__base__link_sets__tree_types__root [76]
+-----------------------------------------------
+                0.00    0.05    2000/6000        mneson__test__base__escape <cycle 1> [4]
+                0.00    0.10    4000/6000        mneson__test__base__for_each_common_target <cycle 1> [18]
+[22]     2.4    0.00    0.14    6000         mneson__test__base__link_sets__lower_bound [22]
+                0.00    0.14    6000/6000        mneson__test__base__link_sets__element_keys__lower_boundXnnn [21]
+-----------------------------------------------
+                                                 <spontaneous>
+[23]     2.1    0.12    0.00                 __gnat_free [23]
+-----------------------------------------------
+                                                 <spontaneous>
+[24]     2.1    0.12    0.00                 __gnat_malloc [24]
+-----------------------------------------------
+                0.01    0.11  227383/227383      mneson__test__base__vertex_order__Olt$2 [11]
+[25]     2.0    0.01    0.11  227383         mneson__test__base__vertex_order__Ogt [25]
+                0.02    0.09  227383/601183      mneson__test__base__Olt [17]
+-----------------------------------------------
+                0.05    0.00  448217/921567      mneson__test__base__Olt [17]
+                0.06    0.00  473350/921567      mneson__test__base__lt_for_string_vertices [19]
+[26]     1.9    0.11    0.00  921567         mneson__test__base__is_valueless [26]
+-----------------------------------------------
+                0.10    0.00  315300/315300      mneson__test__base__vertex_order__Olt$2 [11]
+[27]     1.7    0.10    0.00  315300         mneson__test__base__vertex_order__Oge [27]
+-----------------------------------------------
+                0.00    0.09  473350/473350      mneson__test__base__lt_for_string_vertices [19]
+[28]     1.5    0.00    0.09  473350         mneson__test__base__value$2 [28]
+                0.08    0.00  473350/473350      mneson__test__base(short, long, int, char,...) [30]
+                0.01    0.00  473350/473350      mneson__test__base__length [44]
+-----------------------------------------------
+                                                 <spontaneous>
+[29]     1.5    0.09    0.00                 system__soft_links__task_unlock_nt [29]
+-----------------------------------------------
+                0.08    0.00  473350/473350      mneson__test__base__value$2 [28]
+[30]     1.4    0.08    0.00  473350         mneson__test__base(short, long, int, char,...) [30]
+-----------------------------------------------
+                                                 <spontaneous>
+[31]     1.2    0.07    0.00                 system__soft_links__task_lock_nt [31]
+-----------------------------------------------
+                                                 <spontaneous>
+[32]     0.9    0.05    0.00                 system__soft_links__set_jmpbuf_address_nt [32]
+-----------------------------------------------
+                                                 <spontaneous>
+[33]     0.7    0.04    0.00                 system__soft_links__get_jmpbuf_address_nt [33]
+-----------------------------------------------
+                0.00    0.00    2862/226498      mneson__test__base__link_sets__tree_types__first [67]
+                0.00    0.00    4392/226498      mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00    4779/226498      mneson__test__base__link_sets__tree_types(long double *,...)(double) [65]
+                0.00    0.00   10010/226498      mneson__test__base__link_sets__Ogt$3 [60]
+                0.00    0.00   29374/226498      mneson__test__base__link_sets__tree_types__left_rotate [56]
+                0.00    0.00   30121/226498      mneson__test__base__link_sets__swap [14]
+                0.00    0.00   35388/226498      mneson__test__base__link_sets__element_keys__lower_boundXnnn [21]
+                0.01    0.00   37930/226498      mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+                0.01    0.00   71642/226498      mneson__test__base__link_sets__tree_types__min [41]
+[34]     0.5    0.03    0.00  226498         mneson__test__base__link_sets__left [34]
+-----------------------------------------------
+                0.00    0.00    1000/111000      mneson__test__base__escape <cycle 1> [4]
+                0.03    0.00  110000/111000      mneson__test__base__for_each_common_target <cycle 1> [18]
+[35]     0.5    0.03    0.00  111000         mneson__test__base__link_sets__element [35]
+-----------------------------------------------
+                                                 <spontaneous>
+[36]     0.5    0.03    0.00                 system__soft_links__get_jmpbuf_address_soft [36]
+-----------------------------------------------
+                0.02    0.00  722586/722586      mneson__test__base__Olt [17]
+[37]     0.3    0.02    0.00  722586         mneson__test__base__is_string [37]
+-----------------------------------------------
+                                                 <spontaneous>
+[38]     0.3    0.02    0.00                 _msize [38]
+-----------------------------------------------
+                                                 <spontaneous>
+[39]     0.3    0.02    0.00                 system__soft_links__set_jmpbuf_address_soft [39]
+-----------------------------------------------
+                0.01    0.01   10010/10010       mneson__test__base__link_sets__swap [14]
+[40]     0.3    0.01    0.01   10010         mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+                0.01    0.00   37930/226498      mneson__test__base__link_sets__left [34]
+                0.00    0.00    8535/8535        mneson__test__base__link_sets__tree_types__left_rotate [56]
+                0.00    0.00    2197/2197        mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00  208030/358838      mneson__test__base__link_sets__parent [74]
+                0.00    0.00   52534/52534       mneson__test__base__link_sets__set_color [77]
+                0.00    0.00   39281/66777       mneson__test__base__link_sets__color [75]
+                0.00    0.00   37048/65796       mneson__test__base__link_sets__tree_types__root [76]
+                0.00    0.00    4686/391170      mneson__test__base__link_sets__right [73]
+-----------------------------------------------
+                0.00    0.00    1000/28496       mneson__test__base__link_sets__adjust$2 [5]
+                0.01    0.01   27496/28496       mneson__test__base__link_sets__tree_types(short, char __restrict, char) [43]
+[41]     0.3    0.01    0.01   28496         mneson__test__base__link_sets__tree_types__min [41]
+                0.01    0.00   71642/226498      mneson__test__base__link_sets__left [34]
+-----------------------------------------------
+                0.00    0.02   54000/54000       mneson__test__base__for_each_common_target <cycle 1> [18]
+[42]     0.3    0.00    0.02   54000         mneson__test__base__link_sets(short, char __restrict, char) [42]
+                0.00    0.02   54000/54000       mneson__test__base__link_sets__tree_types(short, char __restrict, char) [43]
+-----------------------------------------------
+                0.00    0.02   54000/54000       mneson__test__base__link_sets(short, char __restrict, char) [42]
+[43]     0.3    0.00    0.02   54000         mneson__test__base__link_sets__tree_types(short, char __restrict, char) [43]
+                0.01    0.01   27496/28496       mneson__test__base__link_sets__tree_types__min [41]
+                0.00    0.00  158905/391170      mneson__test__base__link_sets__right [73]
+                0.00    0.00   50905/358838      mneson__test__base__link_sets__parent [74]
+                0.00    0.00   27496/66777       mneson__test__base__link_sets__color [75]
+-----------------------------------------------
+                0.01    0.00  473350/473350      mneson__test__base__value$2 [28]
+[44]     0.2    0.01    0.00  473350         mneson__test__base__length [44]
+-----------------------------------------------
+                0.00    0.00      10/9010        _ada_mneson__test__run2 [1]
+                0.00    0.01    9000/9010        mneson__test__time_increase_test <cycle 1> [12]
+[45]     0.2    0.00    0.01    9010         mneson__test__base__to_vertex [45]
+                0.00    0.01     201/201         mneson__test__base__string_maps__find [47]
+                0.00    0.00    9010/9010        mneson__test__base__value [81]
+                0.00    0.00     910/910         mneson__test__base__short_string_io__write$2Xnn [99]
+                0.00    0.00     402/402         mneson__test__base__string_maps___init_proc$2 [102]
+                0.00    0.00     101/101         mneson__test__base__short_string_io__sizeXnn [108]
+                0.00    0.00     101/101         mneson__test__base__short_string_io__set_indexXnn [107]
+                0.00    0.00     101/101         mneson__test__base__string_maps__insert [110]
+                0.00    0.00     100/100         mneson__test__base__string_maps__element$2 [114]
+-----------------------------------------------
+                0.00    0.00       2/1002        mneson__test__base__link_sets__clear [58]
+                0.01    0.00    1000/1002        mneson__test__base__link_sets__adjust$2 [5]
+[46]     0.2    0.01    0.00    1002         mneson__test__base__link_sets__tree_types__initialize [46]
+                0.00    0.00    1002/38251       mneson__test__base__link_sets__set_parent [78]
+                0.00    0.00    1002/17663       mneson__test__base__link_sets__set_left [80]
+                0.00    0.00    1002/31550       mneson__test__base__link_sets__set_right [79]
+-----------------------------------------------
+                0.00    0.01     201/201         mneson__test__base__to_vertex [45]
+[47]     0.2    0.00    0.01     201         mneson__test__base__string_maps__find [47]
+                0.01    0.00     200/200         mneson__test__base__string_maps__hash_table_types__find [48]
+-----------------------------------------------
+                0.01    0.00     200/200         mneson__test__base__string_maps__find [47]
+[48]     0.2    0.01    0.00     200         mneson__test__base__string_maps__hash_table_types__find [48]
+                0.00    0.00     406/566         mneson__test__base__string_maps__is_equal_key_node [101]
+                0.00    0.00     306/1045        mneson__test__base__string_maps__next [85]
+                0.00    0.00     200/301         mneson__test__base__string_maps__hash_table_types__index$3 [103]
+-----------------------------------------------
+                                                 <spontaneous>
+[49]     0.2    0.01    0.00                 __gnat_notify_handled_exception [49]
+-----------------------------------------------
+                                                 <spontaneous>
+[50]     0.2    0.01    0.00                 ada__exceptions__process_raise_exception [50]
+-----------------------------------------------
+                                                 <spontaneous>
+[51]     0.2    0.01    0.00                 ada__exceptions__save_occurrence [51]
+-----------------------------------------------
+                                                 <spontaneous>
+[52]     0.2    0.01    0.00                 ada__strings__fixed__head [52]
+-----------------------------------------------
+                                                 <spontaneous>
+[53]     0.2    0.01    0.00                 free [53]
+-----------------------------------------------
+                                                 <spontaneous>
+[54]     0.2    0.01    0.00                 system__soft_links__get_sec_stack_addr_nt [54]
+-----------------------------------------------
+                                                 <spontaneous>
+[55]     0.2    0.01    0.00                 system__string_ops_concat_3__str_concat_3 [55]
+-----------------------------------------------
+                0.00    0.00    8535/8535        mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+[56]     0.1    0.00    0.00    8535         mneson__test__base__link_sets__tree_types__left_rotate [56]
+                0.00    0.00   29374/226498      mneson__test__base__link_sets__left [34]
+                0.00    0.00   25597/358838      mneson__test__base__link_sets__parent [74]
+                0.00    0.00   20843/38251       mneson__test__base__link_sets__set_parent [78]
+                0.00    0.00   14156/31550       mneson__test__base__link_sets__set_right [79]
+                0.00    0.00   11445/17663       mneson__test__base__link_sets__set_left [80]
+                0.00    0.00    8535/391170      mneson__test__base__link_sets__right [73]
+                0.00    0.00    8535/65796       mneson__test__base__link_sets__tree_types__root [76]
+                0.00    0.00       4/1008        mneson__test__base__link_sets__tree_types__set_root [89]
+-----------------------------------------------
+                0.00    0.00    1000/1000        mneson__test__base__escape <cycle 1> [4]
+[57]     0.0    0.00    0.00    1000         mneson__test__base__vertex_order__Ogt$2 [57]
+                0.00    0.00    1000/262591      mneson__test__base__vertex_order__Olt$2 [11]
+-----------------------------------------------
+                0.00    0.00       2/2           mneson__test__base__create [59]
+[58]     0.0    0.00    0.00       2         mneson__test__base__link_sets__clear [58]
+                0.00    0.00       2/1004        mneson__test__base__link_sets__delete_tree [8]
+                0.00    0.00       2/1002        mneson__test__base__link_sets__tree_types__initialize [46]
+                0.00    0.00       2/65796       mneson__test__base__link_sets__tree_types__root [76]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_mneson__test__run2 [1]
+[59]     0.0    0.00    0.00       1         mneson__test__base__create [59]
+                0.00    0.00       2/2           mneson__test__base__link_sets__clear [58]
+                0.00    0.00       3/9           mneson__monitors__null_monitor [121]
+                0.00    0.00       2/3           mneson__test__base__delete_system [122]
+                0.00    0.00       1/2           mneson__test__base__filename [123]
+                0.00    0.00       1/1           mneson__test__base__short_string_io__createXnn [131]
+                0.00    0.00       1/1           mneson__test__base__string_maps__clear [134]
+                0.00    0.00       1/1           mneson__test__base__create_system [129]
+-----------------------------------------------
+                               50052             mneson__test__base__link_sets__Ogt$3 [60]
+                0.00    0.00       2/2           mneson__test__base__link_sets__write$2 [62]
+[60]     0.0    0.00    0.00       2+50052   mneson__test__base__link_sets__Ogt$3 [60]
+                0.00    0.00   10010/226498      mneson__test__base__link_sets__left [34]
+                0.00    0.00   10010/391170      mneson__test__base__link_sets__right [73]
+                0.00    0.00       2/65796       mneson__test__base__link_sets__tree_types__root [76]
+                               50052             mneson__test__base__link_sets__Ogt$3 [60]
+-----------------------------------------------
+                0.00    0.00       2/2           mneson__test__base__close [63]
+[61]     0.0    0.00    0.00       2         mneson__test__base__link_sets___write$2 [61]
+                0.00    0.00       2/2           mneson__test__base__link_sets__write$2 [62]
+-----------------------------------------------
+                0.00    0.00       2/2           mneson__test__base__link_sets___write$2 [61]
+[62]     0.0    0.00    0.00       2         mneson__test__base__link_sets__write$2 [62]
+                0.00    0.00       2/2           mneson__test__base__link_sets__Ogt$3 [60]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__perform [64]
+[63]     0.0    0.00    0.00       1         mneson__test__base__close [63]
+                0.00    0.00       2/2           mneson__test__base__link_sets___write$2 [61]
+                0.00    0.00       6/9           mneson__monitors__null_monitor [121]
+                0.00    0.00       2/2           mneson__test__base__open [126]
+                0.00    0.00       1/2           mneson__test__base__filename [123]
+                0.00    0.00       1/1           mneson__test__base__string_maps___write$2 [133]
+                0.00    0.00       1/1           mneson__test__base__short_string_io__closeXnn [130]
+                0.00    0.00       1/3           mneson__test__base__delete_system [122]
+-----------------------------------------------
+                0.00    0.00       1/1           _ada_mneson__test__run2 [1]
+[64]     0.0    0.00    0.00       1         mneson__test__perform [64]
+                0.00    0.00       1/1           mneson__test__base__close [63]
+                0.00    0.00       1/1045        mneson__test__inc [86]
+-----------------------------------------------
+                0.00    0.00    1428/1428        mneson__test__base__link_sets__swap [14]
+[65]     0.0    0.00    0.00    1428         mneson__test__base__link_sets__tree_types(long double *,...)(double) [65]
+                0.00    0.00    4779/226498      mneson__test__base__link_sets__left [34]
+                0.00    0.00    1923/358838      mneson__test__base__link_sets__parent [74]
+-----------------------------------------------
+                0.00    0.00    2197/2197        mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+[66]     0.0    0.00    0.00    2197         mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00    4392/226498      mneson__test__base__link_sets__left [34]
+                0.00    0.00    6587/358838      mneson__test__base__link_sets__parent [74]
+                0.00    0.00    5388/391170      mneson__test__base__link_sets__right [73]
+                0.00    0.00    5388/38251       mneson__test__base__link_sets__set_parent [78]
+                0.00    0.00    3807/31550       mneson__test__base__link_sets__set_right [79]
+                0.00    0.00    2782/17663       mneson__test__base__link_sets__set_left [80]
+                0.00    0.00    2197/65796       mneson__test__base__link_sets__tree_types__root [76]
+                0.00    0.00       2/1008        mneson__test__base__link_sets__tree_types__set_root [89]
+-----------------------------------------------
+                0.00    0.00    2862/2862        mneson__test__base__link_sets__swap [14]
+[67]     0.0    0.00    0.00    2862         mneson__test__base__link_sets__tree_types__first [67]
+                0.00    0.00    2862/226498      mneson__test__base__link_sets__left [34]
+-----------------------------------------------
+                0.00    0.00  722586/722586      mneson__test__base__Olt [17]
+[72]     0.0    0.00    0.00  722586         mneson__test__base__is_integer_64 [72]
+-----------------------------------------------
+                0.00    0.00    4686/391170      mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+                0.00    0.00    5388/391170      mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00    8535/391170      mneson__test__base__link_sets__tree_types__left_rotate [56]
+                0.00    0.00    8578/391170      mneson__test__base__link_sets__tree_types__last [82]
+                0.00    0.00   10010/391170      mneson__test__base__link_sets__Ogt$3 [60]
+                0.00    0.00   19000/391170      mneson__test__base__link_sets__tree_types__max [98]
+                0.00    0.00   46360/391170      mneson__test__base__link_sets__element_keys__lower_boundXnnn [21]
+                0.00    0.00  129708/391170      mneson__test__base__link_sets__swap [14]
+                0.00    0.00  158905/391170      mneson__test__base__link_sets__tree_types(short, char __restrict, char) [43]
+[73]     0.0    0.00    0.00  391170         mneson__test__base__link_sets__right [73]
+-----------------------------------------------
+                0.00    0.00    1923/358838      mneson__test__base__link_sets__tree_types(long double *,...)(double) [65]
+                0.00    0.00    6587/358838      mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00   25597/358838      mneson__test__base__link_sets__tree_types__left_rotate [56]
+                0.00    0.00   50905/358838      mneson__test__base__link_sets__tree_types(short, char __restrict, char) [43]
+                0.00    0.00   65796/358838      mneson__test__base__link_sets__tree_types__root [76]
+                0.00    0.00  208030/358838      mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+[74]     0.0    0.00    0.00  358838         mneson__test__base__link_sets__parent [74]
+-----------------------------------------------
+                0.00    0.00   27496/66777       mneson__test__base__link_sets__tree_types(short, char __restrict, char) [43]
+                0.00    0.00   39281/66777       mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+[75]     0.0    0.00    0.00   66777         mneson__test__base__link_sets__color [75]
+-----------------------------------------------
+                0.00    0.00       2/65796       mneson__test__base__link_sets__clear [58]
+                0.00    0.00       2/65796       mneson__test__base__link_sets__Ogt$3 [60]
+                0.00    0.00    1000/65796       mneson__test__base__link_sets__adjust$2 [5]
+                0.00    0.00    1002/65796       mneson__test__base__link_sets__finalize$2 [9]
+                0.00    0.00    2197/65796       mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00    6000/65796       mneson__test__base__link_sets__element_keys__lower_boundXnnn [21]
+                0.00    0.00    8535/65796       mneson__test__base__link_sets__tree_types__left_rotate [56]
+                0.00    0.00   10010/65796       mneson__test__base__link_sets__swap [14]
+                0.00    0.00   37048/65796       mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+[76]     0.0    0.00    0.00   65796         mneson__test__base__link_sets__tree_types__root [76]
+                0.00    0.00   65796/358838      mneson__test__base__link_sets__parent [74]
+-----------------------------------------------
+                0.00    0.00   52534/52534       mneson__test__base__link_sets__tree_types__rebalance_for_insert [40]
+[77]     0.0    0.00    0.00   52534         mneson__test__base__link_sets__set_color [77]
+-----------------------------------------------
+                0.00    0.00    1002/38251       mneson__test__base__link_sets__tree_types__initialize [46]
+                0.00    0.00    1008/38251       mneson__test__base__link_sets__tree_types__set_root [89]
+                0.00    0.00    5388/38251       mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00   10010/38251       mneson__test__base__link_sets__swap [14]
+                0.00    0.00   20843/38251       mneson__test__base__link_sets__tree_types__left_rotate [56]
+[78]     0.0    0.00    0.00   38251         mneson__test__base__link_sets__set_parent [78]
+-----------------------------------------------
+                0.00    0.00    1002/31550       mneson__test__base__link_sets__tree_types__initialize [46]
+                0.00    0.00    3807/31550       mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00    4007/31550       mneson__test__base__link_sets__tree_types__set_last [84]
+                0.00    0.00    8578/31550       mneson__test__base__link_sets__swap [14]
+                0.00    0.00   14156/31550       mneson__test__base__link_sets__tree_types__left_rotate [56]
+[79]     0.0    0.00    0.00   31550         mneson__test__base__link_sets__set_right [79]
+-----------------------------------------------
+                0.00    0.00    1002/17663       mneson__test__base__link_sets__tree_types__set_first [95]
+                0.00    0.00    1002/17663       mneson__test__base__link_sets__tree_types__initialize [46]
+                0.00    0.00    1432/17663       mneson__test__base__link_sets__swap [14]
+                0.00    0.00    2782/17663       mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00   11445/17663       mneson__test__base__link_sets__tree_types__left_rotate [56]
+[80]     0.0    0.00    0.00   17663         mneson__test__base__link_sets__set_left [80]
+-----------------------------------------------
+                0.00    0.00    9010/9010        mneson__test__base__to_vertex [45]
+[81]     0.0    0.00    0.00    9010         mneson__test__base__value [81]
+-----------------------------------------------
+                0.00    0.00    8578/8578        mneson__test__base__link_sets__swap [14]
+[82]     0.0    0.00    0.00    8578         mneson__test__base__link_sets__tree_types__last [82]
+                0.00    0.00    8578/391170      mneson__test__base__link_sets__right [73]
+-----------------------------------------------
+                0.00    0.00    5005/5005        mneson__test__base__connect [15]
+[83]     0.0    0.00    0.00    5005         mneson__test__base__link_sets___init_proc [83]
+-----------------------------------------------
+                0.00    0.00    1000/4007        mneson__test__base__link_sets__adjust$2 [5]
+                0.00    0.00    3007/4007        mneson__test__base__link_sets__swap [14]
+[84]     0.0    0.00    0.00    4007         mneson__test__base__link_sets__tree_types__set_last [84]
+                0.00    0.00    4007/31550       mneson__test__base__link_sets__set_right [79]
+-----------------------------------------------
+                0.00    0.00     101/1045        mneson__test__base__string_maps__hash_table_types__finalize [138]
+                0.00    0.00     160/1045        mneson__test__base__string_maps__resize [112]
+                0.00    0.00     202/1045        mneson__test__base__string_maps__write$4 [140]
+                0.00    0.00     276/1045        mneson__test__base__string_maps__hash_table_types__rehash [120]
+                0.00    0.00     306/1045        mneson__test__base__string_maps__hash_table_types__find [48]
+[85]     0.0    0.00    0.00    1045         mneson__test__base__string_maps__next [85]
+-----------------------------------------------
+                0.00    0.00       1/1045        mneson__test__perform [64]
+                0.00    0.00    1044/1045        mneson__test__assert [87]
+[86]     0.0    0.00    0.00    1045         mneson__test__inc [86]
+-----------------------------------------------
+                0.00    0.00       1/1037        mneson__test__report [116]
+                0.00    0.00    1036/1037        mneson__test__time_increase_test <cycle 1> [12]
+[87]     0.0    0.00    0.00    1037         mneson__test__assert [87]
+                0.00    0.00    1044/1045        mneson__test__inc [86]
+                0.00    0.00    1036/1036        mneson__test__raises [88]
+-----------------------------------------------
+                0.00    0.00    1036/1036        mneson__test__assert [87]
+[88]     0.0    0.00    0.00    1036         mneson__test__raises [88]
+-----------------------------------------------
+                0.00    0.00       2/1008        mneson__test__base__link_sets__tree_types__right_rotate [66]
+                0.00    0.00       2/1008        mneson__test__base__link_sets__swap [14]
+                0.00    0.00       4/1008        mneson__test__base__link_sets__tree_types__left_rotate [56]
+                0.00    0.00    1000/1008        mneson__test__base__link_sets__adjust$2 [5]
+[89]     0.0    0.00    0.00    1008         mneson__test__base__link_sets__tree_types__set_root [89]
+                0.00    0.00    1008/38251       mneson__test__base__link_sets__set_parent [78]
+-----------------------------------------------
+                0.00    0.00    1005/1005        mneson__test__base__new_serial_number [91]
+[90]     0.0    0.00    0.00    1005         mneson__test__base__inc [90]
+-----------------------------------------------
+                0.00    0.00    1005/1005        mneson__test__base__new_vertex [92]
+[91]     0.0    0.00    0.00    1005         mneson__test__base__new_serial_number [91]
+                0.00    0.00    1005/1005        mneson__test__base__inc [90]
+-----------------------------------------------
+                0.00    0.00       1/1005        mneson__test__base__create_system [129]
+                0.00    0.00       2/1005        _ada_mneson__test__run2 [1]
+                0.00    0.00    1002/1005        mneson__test__time_increase_test <cycle 1> [12]
+[92]     0.0    0.00    0.00    1005         mneson__test__base__new_vertex [92]
+                0.00    0.00    1005/1005        mneson__test__base__new_serial_number [91]
+                0.00    0.00    1005/1005        mneson__test__base__valueless_vertex [93]
+-----------------------------------------------
+                0.00    0.00    1005/1005        mneson__test__base__new_vertex [92]
+[93]     0.0    0.00    0.00    1005         mneson__test__base__valueless_vertex [93]
+-----------------------------------------------
+                0.00    0.00       2/1002        mneson__test__base__link_sets__new_back [125]
+                0.00    0.00    1000/1002        mneson__test__base__link_sets__adjust$2 [5]
+[94]     0.0    0.00    0.00    1002         mneson__test__base__link_sets___init_proc$3 [94]
+-----------------------------------------------
+                0.00    0.00       2/1002        mneson__test__base__link_sets__swap [14]
+                0.00    0.00    1000/1002        mneson__test__base__link_sets__adjust$2 [5]
+[95]     0.0    0.00    0.00    1002         mneson__test__base__link_sets__tree_types__set_first [95]
+                0.00    0.00    1002/17663       mneson__test__base__link_sets__set_left [80]
+-----------------------------------------------
+                                1000             mneson__test__time_increase_test <cycle 1> [12]
+[96]     0.0    0.00    0.00    1000         mneson__test__base__for_each_target <cycle 1> [96]
+                                1000             mneson__test__base__escape <cycle 1> [4]
+-----------------------------------------------
+                0.00    0.00    1000/1000        mneson__test__base__escape <cycle 1> [4]
+[97]     0.0    0.00    0.00    1000         mneson__test__base__link_sets__back [97]
+-----------------------------------------------
+                0.00    0.00    1000/1000        mneson__test__base__link_sets__adjust$2 [5]
+[98]     0.0    0.00    0.00    1000         mneson__test__base__link_sets__tree_types__max [98]
+                0.00    0.00   19000/391170      mneson__test__base__link_sets__right [73]
+-----------------------------------------------
+                0.00    0.00     910/910         mneson__test__base__to_vertex [45]
+[99]     0.0    0.00    0.00     910         mneson__test__base__short_string_io__write$2Xnn [99]
+-----------------------------------------------
+                0.00    0.00     276/577         mneson__test__base__string_maps__hash_node [104]
+                0.00    0.00     301/577         mneson__test__base__string_maps__hash_table_types__index$3 [103]
+[100]    0.0    0.00    0.00     577         _ada_ai302__strings__hash [100]
+-----------------------------------------------
+                0.00    0.00     160/566         mneson__test__base__string_maps__resize [112]
+                0.00    0.00     406/566         mneson__test__base__string_maps__hash_table_types__find [48]
+[101]    0.0    0.00    0.00     566         mneson__test__base__string_maps__is_equal_key_node [101]
+-----------------------------------------------
+                0.00    0.00     402/402         mneson__test__base__to_vertex [45]
+[102]    0.0    0.00    0.00     402         mneson__test__base__string_maps___init_proc$2 [102]
+-----------------------------------------------
+                0.00    0.00     101/301         mneson__test__base__string_maps__resize [112]
+                0.00    0.00     200/301         mneson__test__base__string_maps__hash_table_types__find [48]
+[103]    0.0    0.00    0.00     301         mneson__test__base__string_maps__hash_table_types__index$3 [103]
+                0.00    0.00     301/577         _ada_ai302__strings__hash [100]
+-----------------------------------------------
+                0.00    0.00     276/276         mneson__test__base__string_maps__hash_table_types__index [105]
+[104]    0.0    0.00    0.00     276         mneson__test__base__string_maps__hash_node [104]
+                0.00    0.00     276/577         _ada_ai302__strings__hash [100]
+-----------------------------------------------
+                0.00    0.00     276/276         mneson__test__base__string_maps__hash_table_types__rehash [120]
+[105]    0.0    0.00    0.00     276         mneson__test__base__string_maps__hash_table_types__index [105]
+                0.00    0.00     276/276         mneson__test__base__string_maps__hash_node [104]
+-----------------------------------------------
+                0.00    0.00     276/276         mneson__test__base__string_maps__hash_table_types__rehash [120]
+[106]    0.0    0.00    0.00     276         mneson__test__base__string_maps__set_next [106]
+-----------------------------------------------
+                0.00    0.00     101/101         mneson__test__base__to_vertex [45]
+[107]    0.0    0.00    0.00     101         mneson__test__base__short_string_io__set_indexXnn [107]
+-----------------------------------------------
+                0.00    0.00     101/101         mneson__test__base__to_vertex [45]
+[108]    0.0    0.00    0.00     101         mneson__test__base__short_string_io__sizeXnn [108]
+-----------------------------------------------
+                0.00    0.00     101/101         mneson__test__base__string_maps__insert [110]
+[109]    0.0    0.00    0.00     101         mneson__test__base__string_maps__hash_table_types__resize [109]
+                0.00    0.00      11/11          ai302__containers__prime_numbers__to_prime [118]
+                0.00    0.00      11/11          mneson__test__base__string_maps__hash_table_types__rehash [120]
+-----------------------------------------------
+                0.00    0.00     101/101         mneson__test__base__to_vertex [45]
+[110]    0.0    0.00    0.00     101         mneson__test__base__string_maps__insert [110]
+                0.00    0.00     101/101         mneson__test__base__string_maps__hash_table_types__resize [109]
+                0.00    0.00     101/101         mneson__test__base__string_maps__resize [112]
+-----------------------------------------------
+                0.00    0.00     101/101         mneson__test__base__string_maps__write$3 [113]
+[111]    0.0    0.00    0.00     101         mneson__test__base__string_maps__replace_element [111]
+-----------------------------------------------
+                                 101             mneson__test__base__string_maps__resize [112]
+                0.00    0.00     101/101         mneson__test__base__string_maps__insert [110]
+[112]    0.0    0.00    0.00     101+101     mneson__test__base__string_maps__resize [112]
+                0.00    0.00     160/566         mneson__test__base__string_maps__is_equal_key_node [101]
+                0.00    0.00     160/1045        mneson__test__base__string_maps__next [85]
+                0.00    0.00     101/301         mneson__test__base__string_maps__hash_table_types__index$3 [103]
+                                 101             mneson__test__base__string_maps__resize [112]
+-----------------------------------------------
+                0.00    0.00     101/101         mneson__test__base__string_maps__write$4 [140]
+[113]    0.0    0.00    0.00     101         mneson__test__base__string_maps__write$3 [113]
+                0.00    0.00     101/101         mneson__test__base__string_maps__replace_element [111]
+-----------------------------------------------
+                0.00    0.00     100/100         mneson__test__base__to_vertex [45]
+[114]    0.0    0.00    0.00     100         mneson__test__base__string_maps__element$2 [114]
+-----------------------------------------------
+                0.00    0.00      59/59          ai302__containers__prime_numbers__lower_bound [117]
+[115]    0.0    0.00    0.00      59         ai302__containers__prime_numbers__is_less [115]
+-----------------------------------------------
+                0.00    0.00       1/37          _ada_mneson__test__run2 [1]
+                0.00    0.00      36/37          mneson__test__time_increase_test <cycle 1> [12]
+[116]    0.0    0.00    0.00      37         mneson__test__report [116]
+                0.00    0.00       1/1037        mneson__test__assert [87]
+-----------------------------------------------
+                0.00    0.00      11/11          ai302__containers__prime_numbers__to_prime [118]
+[117]    0.0    0.00    0.00      11         ai302__containers__prime_numbers__lower_bound [117]
+                0.00    0.00      59/59          ai302__containers__prime_numbers__is_less [115]
+-----------------------------------------------
+                0.00    0.00      11/11          mneson__test__base__string_maps__hash_table_types__resize [109]
+[118]    0.0    0.00    0.00      11         ai302__containers__prime_numbers__to_prime [118]
+                0.00    0.00      11/11          ai302__containers__prime_numbers__lower_bound [117]
+-----------------------------------------------
+                0.00    0.00      11/11          mneson__test__base__string_maps__hash_table_types__rehash [120]
+[119]    0.0    0.00    0.00      11         mneson__test__base__string_maps__hash_table_types___init_proc [119]
+-----------------------------------------------
+                0.00    0.00      11/11          mneson__test__base__string_maps__hash_table_types__resize [109]
+[120]    0.0    0.00    0.00      11         mneson__test__base__string_maps__hash_table_types__rehash [120]
+                0.00    0.00     276/276         mneson__test__base__string_maps__hash_table_types__index [105]
+                0.00    0.00     276/1045        mneson__test__base__string_maps__next [85]
+                0.00    0.00     276/276         mneson__test__base__string_maps__set_next [106]
+                0.00    0.00      11/11          mneson__test__base__string_maps__hash_table_types___init_proc [119]
+-----------------------------------------------
+                0.00    0.00       3/9           mneson__test__base__create [59]
+                0.00    0.00       6/9           mneson__test__base__close [63]
+[121]    0.0    0.00    0.00       9         mneson__monitors__null_monitor [121]
+-----------------------------------------------
+                0.00    0.00       1/3           mneson__test__base__close [63]
+                0.00    0.00       2/3           mneson__test__base__create [59]
+[122]    0.0    0.00    0.00       3         mneson__test__base__delete_system [122]
+-----------------------------------------------
+                0.00    0.00       1/2           mneson__test__base__create [59]
+                0.00    0.00       1/2           mneson__test__base__close [63]
+[123]    0.0    0.00    0.00       2         mneson__test__base__filename [123]
+-----------------------------------------------
+                0.00    0.00       2/2           mneson__test___elabs [128]
+[124]    0.0    0.00    0.00       2         mneson__test__base__link_sets___init_proc$2 [124]
+                0.00    0.00       2/2           mneson__test__base__link_sets__new_back [125]
+-----------------------------------------------
+                0.00    0.00       2/2           mneson__test__base__link_sets___init_proc$2 [124]
+[125]    0.0    0.00    0.00       2         mneson__test__base__link_sets__new_back [125]
+                0.00    0.00       2/1002        mneson__test__base__link_sets___init_proc$3 [94]
+-----------------------------------------------
+                0.00    0.00       2/2           mneson__test__base__close [63]
+[126]    0.0    0.00    0.00       2         mneson__test__base__open [126]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[127]    0.0    0.00    0.00       1         adainit [127]
+                0.00    0.00       1/1           mneson__types___elabs [141]
+                0.00    0.00       1/1           mneson__test___elabs [128]
+-----------------------------------------------
+                0.00    0.00       1/1           adainit [127]
+[128]    0.0    0.00    0.00       1         mneson__test___elabs [128]
+                0.00    0.00       2/2           mneson__test__base__link_sets___init_proc$2 [124]
+                0.00    0.00       1/1           mneson__test__base__string_maps___init_proc$3 [132]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__create [59]
+[129]    0.0    0.00    0.00       1         mneson__test__base__create_system [129]
+                0.00    0.00       1/1005        mneson__test__base__new_vertex [92]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__close [63]
+[130]    0.0    0.00    0.00       1         mneson__test__base__short_string_io__closeXnn [130]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__create [59]
+[131]    0.0    0.00    0.00       1         mneson__test__base__short_string_io__createXnn [131]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test___elabs [128]
+[132]    0.0    0.00    0.00       1         mneson__test__base__string_maps___init_proc$3 [132]
+                0.00    0.00       1/1           mneson__test__base__string_maps__hash_table_types___init_proc$2 [136]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__close [63]
+[133]    0.0    0.00    0.00       1         mneson__test__base__string_maps___write$2 [133]
+                0.00    0.00       1/1           mneson__test__base__string_maps__write$2 [139]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__create [59]
+[134]    0.0    0.00    0.00       1         mneson__test__base__string_maps__clear [134]
+                0.00    0.00       1/1           mneson__test__base__string_maps__hash_table_types__clear [137]
+-----------------------------------------------
+                0.00    0.00       1/1           system__finalization_implementation__finalize_list [10]
+[135]    0.0    0.00    0.00       1         mneson__test__base__string_maps__finalize$2 [135]
+                0.00    0.00       1/1           mneson__test__base__string_maps__hash_table_types__finalize [138]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__string_maps___init_proc$3 [132]
+[136]    0.0    0.00    0.00       1         mneson__test__base__string_maps__hash_table_types___init_proc$2 [136]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__string_maps__clear [134]
+[137]    0.0    0.00    0.00       1         mneson__test__base__string_maps__hash_table_types__clear [137]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__string_maps__finalize$2 [135]
+[138]    0.0    0.00    0.00       1         mneson__test__base__string_maps__hash_table_types__finalize [138]
+                0.00    0.00     101/1045        mneson__test__base__string_maps__next [85]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__string_maps___write$2 [133]
+[139]    0.0    0.00    0.00       1         mneson__test__base__string_maps__write$2 [139]
+                0.00    0.00       1/1           mneson__test__base__string_maps__write$4 [140]
+-----------------------------------------------
+                0.00    0.00       1/1           mneson__test__base__string_maps__write$2 [139]
+[140]    0.0    0.00    0.00       1         mneson__test__base__string_maps__write$4 [140]
+                0.00    0.00     202/1045        mneson__test__base__string_maps__next [85]
+                0.00    0.00     101/101         mneson__test__base__string_maps__write$3 [113]
+-----------------------------------------------
+                0.00    0.00       1/1           adainit [127]
+[141]    0.0    0.00    0.00       1         mneson__types___elabs [141]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [23] __gnat_free            [35] mneson__test__base__link_sets__element [114] mneson__test__base__string_maps__element$2
+  [24] __gnat_malloc          [21] mneson__test__base__link_sets__element_keys__lower_boundXnnn [135] mneson__test__base__string_maps__finalize$2
+  [49] __gnat_notify_handled_exception [9] mneson__test__base__link_sets__finalize$2 [47] mneson__test__base__string_maps__find
+ [100] _ada_ai302__strings__hash [13] mneson__test__base__link_sets__insert [104] mneson__test__base__string_maps__hash_node
+   [1] _ada_mneson__test__run2 [20] mneson__test__base__link_sets__is_greater_element_node [119] mneson__test__base__string_maps__hash_table_types___init_proc
+ (337) _mcount (s-memory.adb) [16] mneson__test__base__link_sets__is_less_element_node [136] mneson__test__base__string_maps__hash_table_types___init_proc$2
+  [38] _msize                 [34] mneson__test__base__link_sets__left [137] mneson__test__base__string_maps__hash_table_types__clear
+  [50] ada__exceptions__process_raise_exception [22] mneson__test__base__link_sets__lower_bound [138] mneson__test__base__string_maps__hash_table_types__finalize
+  [51] ada__exceptions__save_occurrence [125] mneson__test__base__link_sets__new_back [48] mneson__test__base__string_maps__hash_table_types__find
+  [52] ada__strings__fixed__head [74] mneson__test__base__link_sets__parent [105] mneson__test__base__string_maps__hash_table_types__index
+ [127] adainit                [73] mneson__test__base__link_sets__right [103] mneson__test__base__string_maps__hash_table_types__index$3
+ [115] ai302__containers__prime_numbers__is_less [77] mneson__test__base__link_sets__set_color [120] mneson__test__base__string_maps__hash_table_types__rehash
+ [117] ai302__containers__prime_numbers__lower_bound [80] mneson__test__base__link_sets__set_left [109] mneson__test__base__string_maps__hash_table_types__resize
+ [118] ai302__containers__prime_numbers__to_prime [78] mneson__test__base__link_sets__set_parent [110] mneson__test__base__string_maps__insert
+  [53] free                   [79] mneson__test__base__link_sets__set_right [101] mneson__test__base__string_maps__is_equal_key_node
+ (863) mcount                 [42] mneson__test__base__link_sets(short, char __restrict, char) [85] mneson__test__base__string_maps__next
+ [121] mneson__monitors__null_monitor [14] mneson__test__base__link_sets__swap [111] mneson__test__base__string_maps__replace_element
+ [128] mneson__test___elabs   [67] mneson__test__base__link_sets__tree_types__first [112] mneson__test__base__string_maps__resize
+  [87] mneson__test__assert   [46] mneson__test__base__link_sets__tree_types__initialize [106] mneson__test__base__string_maps__set_next
+  [17] mneson__test__base__Olt [82] mneson__test__base__link_sets__tree_types__last [139] mneson__test__base__string_maps__write$2
+  [63] mneson__test__base__close [56] mneson__test__base__link_sets__tree_types__left_rotate [113] mneson__test__base__string_maps__write$3
+  [15] mneson__test__base__connect [98] mneson__test__base__link_sets__tree_types__max [140] mneson__test__base__string_maps__write$4
+  [59] mneson__test__base__create [41] mneson__test__base__link_sets__tree_types__min [45] mneson__test__base__to_vertex
+ [129] mneson__test__base__create_system [65] mneson__test__base__link_sets__tree_types(long double *,...)(double) [81] mneson__test__base__value
+ [122] mneson__test__base__delete_system [40] mneson__test__base__link_sets__tree_types__rebalance_for_insert [28] mneson__test__base__value$2
+   [4] mneson__test__base__escape [66] mneson__test__base__link_sets__tree_types__right_rotate [93] mneson__test__base__valueless_vertex
+ [123] mneson__test__base__filename [76] mneson__test__base__link_sets__tree_types__root [27] mneson__test__base__vertex_order__Oge
+  [18] mneson__test__base__for_each_common_target [95] mneson__test__base__link_sets__tree_types__set_first [25] mneson__test__base__vertex_order__Ogt
+  [96] mneson__test__base__for_each_target [84] mneson__test__base__link_sets__tree_types__set_last [57] mneson__test__base__vertex_order__Ogt$2
+  [90] mneson__test__base__inc [89] mneson__test__base__link_sets__tree_types__set_root [11] mneson__test__base__vertex_order__Olt$2
+  [72] mneson__test__base__is_integer_64 [43] mneson__test__base__link_sets__tree_types(short, char __restrict, char) [86] mneson__test__inc (mneson-test.adb)
+  [37] mneson__test__base__is_string [62] mneson__test__base__link_sets__write$2 [64] mneson__test__perform
+  [26] mneson__test__base__is_valueless [19] mneson__test__base__lt_for_string_vertices [88] mneson__test__raises
+  [44] mneson__test__base__length [91] mneson__test__base__new_serial_number [116] mneson__test__report
+  [60] mneson__test__base__link_sets__Ogt$3 [92] mneson__test__base__new_vertex [12] mneson__test__time_increase_test
+  [83] mneson__test__base__link_sets___init_proc [126] mneson__test__base__open [141] mneson__types___elabs
+ [124] mneson__test__base__link_sets___init_proc$2 [130] mneson__test__base__short_string_io__closeXnn [33] system__soft_links__get_jmpbuf_address_nt
+  [94] mneson__test__base__link_sets___init_proc$3 [131] mneson__test__base__short_string_io__createXnn [36] system__soft_links__get_jmpbuf_address_soft
+  [61] mneson__test__base__link_sets___write$2 [107] mneson__test__base__short_string_io__set_indexXnn [54] system__soft_links__get_sec_stack_addr_nt
+   [5] mneson__test__base__link_sets__adjust$2 [108] mneson__test__base__short_string_io__sizeXnn [32] system__soft_links__set_jmpbuf_address_nt
+  [97] mneson__test__base__link_sets__back [99] mneson__test__base__short_string_io__write$2Xnn [39] system__soft_links__set_jmpbuf_address_soft
+  [58] mneson__test__base__link_sets__clear [30] mneson__test__base(short, long, int, char,...) [31] system__soft_links__task_lock_nt
+  [75] mneson__test__base__link_sets__color [102] mneson__test__base__string_maps___init_proc$2 [29] system__soft_links__task_unlock_nt
+   [7] mneson__test__base__link_sets__copy_node [132] mneson__test__base__string_maps___init_proc$3 [55] system__string_ops_concat_3__str_concat_3
+   [6] mneson__test__base__link_sets__copy_tree [133] mneson__test__base__string_maps___write$2 [3] <cycle 1>
+   [8] mneson__test__base__link_sets__delete_tree [134] mneson__test__base__string_maps__clear
